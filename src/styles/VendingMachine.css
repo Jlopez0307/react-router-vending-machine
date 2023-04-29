@@ -1,0 +1,36 @@
+.VendingMachine {
+    background-image:url('https://images.alphacoders.com/114/thumb-1920-1140468.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.VendingMachine h1.VendingMachine-header {
+    color: white;
+}
+
+
+.VendingMachine-choices{
+    background-color: rgba(69, 69, 69, 0.695);
+    width: 30vw;
+    height: 30vh;
+    color: white;
+    font-size: 1.5rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.VendingMachine-choices a{
+    color: white;
+}
